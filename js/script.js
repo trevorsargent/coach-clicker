@@ -1,16 +1,16 @@
 var numCoaches = 0;
-var coachesPerSec = 1;
+var coachesPerSec = 10;
 var clincrement = 1;
 
 setInterval(function(){
-  numCoaches += coachesPerSec;
+  numCoaches += coachesPerSec/100;
   refresh();
-}, 1000);
+}, 10);
 
 refresh = function(){
-  $("#coach-count").html(numCoaches + " Coaches");
+  $("#coach-count").html(Math.floor(numCoaches) + " Coaches");
   $("#coaches-per-sec").html(coachesPerSec + " Coaches per second");
-  $("title").html("Coach Clicker: " + numCoaches + " Coaches")
+  $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coaches")
 }
 
 onClick = function(){
