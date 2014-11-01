@@ -9,7 +9,8 @@ setInterval(function(){
 
 refresh = function(){
   $("#coach-count").html(numCoaches + " Coaches");
-  $("#coach-per-sec").html(coachesPerSec + " Coaches per second");
+  $("#coaches-per-sec").html(coachesPerSec + " Coaches per second");
+  $("title").html("Coach Clicker: " + numCoaches + " Coaches")
 }
 
 onClick = function(){

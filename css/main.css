@@ -14,4 +14,5 @@ body{
 #head-coach{
   width: 100%;
   margin-top: 50px;
+  cursor: pointer;
 }
