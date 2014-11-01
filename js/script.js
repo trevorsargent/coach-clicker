@@ -24,4 +24,15 @@ $(document).ready(function(){
   $("#head-coach").click(function(){
     onClick();
   });
+
+  $("#head-coach").mousedown(function(){
+    $("#head-coach").width(245);
+    $("#head-coach").css("margin-top", "54");
+  });
+
+  $(document).mouseup(function(){
+    $("#head-coach").width(250);
+    $("#head-coach").css("margin-top", "50");
+  });
+
 });
