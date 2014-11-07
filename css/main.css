@@ -16,3 +16,10 @@ body{
   margin-top: 50px;
   cursor: pointer;
 }
+
+.building{
+  height: 50px;
+  background: grey;
+  border: 2px solid lightgrey;
+  cursor: pointer;
+}
