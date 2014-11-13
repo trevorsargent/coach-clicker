@@ -29,7 +29,7 @@ refresh = function(){
   }
   $("#coaches-per-sec").html(coachesPerSec + " Coaches per second");
   if(Math.floor(coachesPerSec) == 1){
-    $("#coach-count").html(Math.floor(numCoaches) + " Coach per second");
+    $("#coaches-per-sec").html(Math.floor(numCoaches) + " Coach per second");
   }
   $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coaches");
   if(Math.floor(numCoaches) == 1){
