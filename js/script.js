@@ -27,6 +27,9 @@ refresh = function(){
     $("#coach-count").html(Math.floor(numCoaches) + " Coach");
   }
   $("#coaches-per-sec").html(coachesPerSec + " Coaches per second");
+  if(Math.floor(coachesPerSec) == 1){
+    $("#coach-count").html(Math.floor(numCoaches) + " Coach per second");
+  }
   $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coaches");
 
   //update styling for buildings
