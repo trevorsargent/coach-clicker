@@ -23,6 +23,7 @@ function setup(){
 refresh = function(){
   //update titles and headers with proper number of coaches
   $("#coach-count").html(Math.floor(numCoaches) + " Coaches");
+  if(numCoaches == 1){$("#coach-count").html(Math.floor(numCoaches) + " Coach");}
   $("#coaches-per-sec").html(coachesPerSec + " Coaches per second");
   $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coaches");
 
