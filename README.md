@@ -1,6 +1,8 @@
 #Coach Clicker
 
-featuring Coach Guillard of [Lewis & Clark College](http://www.lclark.edu)
+featuring Coach Gaillard of [Lewis & Clark College](http://www.lclark.edu)
+
+Play at [trevorsargent.github.io/coachClicker](http://trevorsargent.github.io/coachClicker)
 
 #Credits
 Inspired by [cookie cliker](http://orteil.dashnet.org/cookieclicker/)   
