@@ -22,6 +22,7 @@ function setup(){
 
 refresh = function(){
   //update titles and headers with proper number of coaches
+
   $("#coach-count").html(Math.floor(numCoaches) + " Coaches");
   if(Math.floor(numCoaches) == 1){
     $("#coach-count").html(Math.floor(numCoaches) + " Coach");
@@ -31,7 +32,9 @@ refresh = function(){
     $("#coach-count").html(Math.floor(numCoaches) + " Coach per second");
   }
   $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coaches");
-
+  if(Math.floor(numCoaches) == 1){
+    $("title").html("Coach Clicker: " + Math.floor(numCoaches) + " Coach");
+  }
   //update styling for buildings
   for(i = 0; i < buildings.length; i++){
     building = buildings[i];
