@@ -18,8 +18,30 @@ body{
 }
 
 .building{
-  height: 50px;
-  background: grey;
+  height: 60px;
+  background-color: #999;
   border: 2px solid lightgrey;
   cursor: pointer;
+  padding: 5px 15px;
+}
+
+.building:hover{
+  background: #aaa;
+}
+
+.building h3{
+  margin: 0px;
+  flaot: left;
+}
+
+.building .price{
+  float:right;
+}
+
+.unavailable{
+  background-color: #b23333;
+}
+
+.unavailable:hover{
+  background-color: #c24343;
 }
